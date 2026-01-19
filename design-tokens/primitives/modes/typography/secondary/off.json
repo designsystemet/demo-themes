@@ -1,5 +1,5 @@
 {
-  "sample-theme": {
+  "off": {
     "font-family": {
       "$type": "fontFamilies",
       "$value": "Inter"
