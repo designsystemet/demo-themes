@@ -25,6 +25,10 @@ jobs:
       
       - name: Generate design tokens
         run: npx --yes @digdir/designsystemet@latest tokens create --config designsystemet.config.json --clean
+        
+      - name: Build design tokens
+        run: npx --yes @digdir/designsystemet@latest tokens build --config designsystemet.config.json --clean
+      
       
       - name: Commit generated tokens
         run: |
